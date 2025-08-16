@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color:bisque;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+     
+}
+
+.container{
+     
+    width:400px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px 0 rgba(0,0, 0,0.3);
+    border:1px solid black;
+    border:none;
+    padding:20px;
+    background-color:white;
+
+}
+.header{
+    font-size:16px;
+    font-weight:600px;
+    margin-bottom:20px;
+}
+.loan-amount-info,.interest-rate-info,.months-to-info{
+    font-size:20px;
+    display:block;
+    margin-bottom:10px;
+}
+input{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:6px;
+    border:none;
+    box-shadow:0 0 10px 0 rgba(0,0, 0,0.3);
+}
+#calculate{
+    background-color:red;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    width:110px;
+    border:none;
+    font-size:16px;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+.result{
+    font-size:20;
+    margin-bottom:10px;
+    font-weight:600px;
+    
+}
+span{
+    color:red;
+}
+.loan-amount{
+    font-size:20px;
+    display:block;
+    margin-top:10px;
+}
+.loan-amount-input{
+    padding-bottom:10px;
+}
